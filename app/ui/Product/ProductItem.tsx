@@ -687,14 +687,14 @@ const ProductItem: React.FC<Product & { compact?: boolean }> = ({
                 </div>
                 <div
                   style={{ color: "rgba(143, 143, 143, 1)" }}
-                  className="sale_price relative shrink overflow-hidden text-ellipsis text-[10px] font-semibold leading-[13px] line-through"
+                  className="sale_price relative shrink overflow-hidden text-ellipsis text-[13px] font-semibold leading-[13px] line-through"
                 >
                   {stroked_price}
                 </div>
                 {discount > 0 && (
                   <div
                     style={{ color: "rgba(16, 161, 0, 1)" }}
-                    className="offer min-w-max shrink-0 text-[8px] font-bold uppercase leading-[10px]"
+                    className="offer min-w-max shrink-0 text-[10px] font-bold uppercase leading-[10px]"
                   >
                     <span>
                       {discount}
