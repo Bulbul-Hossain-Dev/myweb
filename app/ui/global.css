@@ -5,8 +5,8 @@
 @layer components {
   .home-section {
     @apply w-full my-5 md:my-8;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   @media (min-width: 768px) {
