@@ -682,7 +682,7 @@ const ProductItem: React.FC<Product & { compact?: boolean }> = ({
             </div> */}
              {/* Price */}
               <div className="price flex min-w-0 items-center justify-start gap-0.5 whitespace-nowrap">
-                <div className="regular_price shrink-0 text-[15px] font-extrabold leading-[18px] text-black">
+                <div className="regular_price shrink-0 text-[15px] font-bold leading-[18px] text-black">
                   {main_price}
                 </div>
                 <div
